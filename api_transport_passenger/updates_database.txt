@@ -1,0 +1,69 @@
+lista de actualizaciones y cambios a la base de datos
+
+tabla - transport_user{
+	campos agregados {
+		user_token(text)
+		google_token(text)
+		online(char)
+	}
+	campos cambiados {
+		n/a
+	}
+}
+
+tabla - transport_card{
+	campos agregados{
+		n/a
+	}
+	campos cambiados{
+		ex_month -> exp_month
+	}
+}
+
+tabla - transport_user_invoice_data{
+	campos agregados{
+		name(text - not_null)
+		
+	}
+	campos cambiados{
+		num_int -> optional
+	}
+}
+
+tabla - transport_travel{
+	campos agregados{
+		n/a
+	}
+	campos cambiados{
+		end_lat -> optional,
+		end_long -> optional,
+		end_address -> optional,
+		date_end -> optional
+	}
+}
+
+
+//*****************************************************//
+
+Funciones agregadas a la base de datos
+
+CREATE OR REPLACE FUNCTION "public"."months_between"("t_start" timestamp, "t_end" timestamp)
+  RETURNS "pg_catalog"."int4" AS $BODY$
+        SELECT
+            (
+                12 * extract('years' from a.i) + extract('months' from a.i)
+            )::integer
+        from (
+            values (justify_interval($2 - $1))
+        ) as a (i)
+    $BODY$
+  LANGUAGE sql IMMUTABLE STRICT
+COST 100
+
+#retorna el numero de meses entre una fecha y otra - usada para obtener la antigüedad de los usuarios (pasajero/conductor)
+
+
+//*************************** UPDATES 200320 ********************************//
+	
+	tabla: transport_cost
+	add_attr: cost_min //costo por minuto FLOAT8
