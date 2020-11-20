@@ -179,7 +179,7 @@
             <!-- ============================================================== -->
             <footer class="footer text-center text-muted">
                 All Rights Reserved by Q-Ponext. Designed and Developed by <a
-                    href="https://www.maxlexgeo.com" target="_blank">MAXLEX GEO</a>.
+                    href="https://www.rayosxvillanueva.com" target="_blank">MAXLEX GEO</a>.
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

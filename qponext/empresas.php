@@ -176,7 +176,7 @@
             <!-- ============================================================== -->
             <footer class="footer text-center text-muted">
                 All Rights Reserved by Q-Pones. Designed and Developed by <a
-                    href="https://www.maxlexgeo.com">MaxLexGeo</a>.
+                    href="https://www.rayosxvillanueva.com">MaxLexGeo</a>.
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

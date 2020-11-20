@@ -74,15 +74,15 @@
                             <i class="icon-calender mr-2 text-info font-weight-bold"></i> Inicio: <?=$cuponera_detalles['fecha_inicio']?>&emsp;
                             <i class="icon-calender mr-2 text-info font-weight-bold"></i>Caducidad: <?=$cuponera_detalles['fecha_caducidad']?>
                         </p>
-                        <a target="_new" href="http://www.facebook.com/sharer.php?u=https://maxlexgeo.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>" data-toggle="tooltip" title="Compartir cuponera en Facebook" data-placement="left">
+                        <a target="_new" href="http://www.facebook.com/sharer.php?u=https://rayosxvillanueva.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>" data-toggle="tooltip" title="Compartir cuponera en Facebook" data-placement="left">
                             <button style="background-color: #4267B2; border: none;" type="button" class="btn btn-secondary btn-circle"><i class="fab fa-facebook-f"></i></button>
                         </a>
 
-                        <a target="_new" href="https://twitter.com/share?url=https://maxlexgeo.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>" data-toggle="tooltip" title="Compartir cuponera en Twitter" data-placement="top">
+                        <a target="_new" href="https://twitter.com/share?url=https://rayosxvillanueva.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>" data-toggle="tooltip" title="Compartir cuponera en Twitter" data-placement="top">
                             <button style="background-color: #1DA1F2; border: none; type="button" class="btn btn-secondary btn-circle"><i class="fab fa-twitter"></i></button>
                         </a>
 
-                        <a target="_new" href="https://api.whatsapp.com/send?phone=&amp;text=https://maxlexgeo.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>&amp;source=&amp;data=" data-toggle="tooltip" title="Compartir cuponera en WhatsApp" data-placement="right">
+                        <a target="_new" href="https://api.whatsapp.com/send?phone=&amp;text=https://rayosxvillanueva.com/qponext/cuponeras_view.php?cuponera=<?=$cuponera?>&amp;source=&amp;data=" data-toggle="tooltip" title="Compartir cuponera en WhatsApp" data-placement="right">
                             <button style="background-color: #0CC243; border: none;" type="button" class="btn btn-secondary btn-circle"><i class="fab fa-whatsapp"></i></button>
                         </a>
                     </div>
@@ -138,7 +138,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center text-muted">
-                All Rights Reserved by QPonext. Designed and Developed by <a href="https://www.maxlexgeo.com" target="_blank">MAXLEX GEO</a>.
+                All Rights Reserved by QPonext. Designed and Developed by <a href="https://www.rayosxvillanueva.com" target="_blank">MAXLEX GEO</a>.
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
